@@ -1,0 +1,2 @@
+@echo off
+cmd /k "cd /d C:\Users\mbari\OneDrive\Belgeler\Baris\Programlama\Advent of Code\Advent of Code 2023\venv\Scripts & activate & cd /d    C:\Users\mbari\OneDrive\Belgeler\Baris\Programlama\Advent of Code\Advent of Code 2023 & code . "
