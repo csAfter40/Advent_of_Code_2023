@@ -109,7 +109,7 @@ class App:
 
 if __name__ == "__main__":
     cube_limits = {"red": 12, "green": 13, "blue": 14}
-    input_file_path = "Day 2/input.txt"
+    input_file_path = "day02/input.txt"
     app = App(input_file_path, CubeDataParser, cube_limits)
     app.setup()
     print("part 1: ", app.calculate_id_sum())

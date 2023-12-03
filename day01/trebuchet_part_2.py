@@ -62,9 +62,6 @@ class App:
             if last_index < index:
                 num = value
                 last_index = index
-
-        print(line, num)
-
         return num
 
     def get_first_digits(self):
@@ -86,6 +83,6 @@ class App:
 
 
 if __name__ == "__main__":
-    app = App("Day 1/data.txt")
+    app = App("day01/data.txt")
     app.setup_data()
     print(app.calculate_calibration_values_sum())
